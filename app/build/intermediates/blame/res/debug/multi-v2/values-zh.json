@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Repositories\\day02-master\\day02-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\陈耀文\\.gradle\\caches\\transforms-2\\files-2.1\\22841b6051c99387af9a677a3170a376\\jetified-jiecaovideoplayer-4.8.3\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,97,161,215",
+                        "endColumns": "41,63,53,54",
+                        "endOffsets": "92,156,210,265"
+                    },
+                    "to": {
+                        "startLines": "14,16,17,18",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "670,763,827,881",
+                        "endColumns": "41,63,53,54",
+                        "endOffsets": "707,822,876,931"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\陈耀文\\.gradle\\caches\\transforms-2\\files-2.1\\7bfd8ad975cc46c5c2514ab93fdd007f\\jetified-matisse-0.4.3\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,103,153,205,248,291,337,382,435,496,561,615,670",
+                        "endColumns": "47,49,51,42,42,45,44,52,60,64,53,54,50",
+                        "endOffsets": "98,148,200,243,286,332,377,430,491,556,610,665,716"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,103,153,205,248,291,337,382,435,496,561,615,712",
+                        "endColumns": "47,49,51,42,42,45,44,52,60,64,53,54,50",
+                        "endOffsets": "98,148,200,243,286,332,377,430,491,556,610,665,758"
+                    }
+                }
+            ]
+        }
+    ]
+}

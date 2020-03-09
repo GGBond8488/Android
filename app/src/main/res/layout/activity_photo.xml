@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".photoActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/pho"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/background_light"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="22sp"
+            android:drawableLeft="@drawable/ic_menu_camera"
+            android:onClick="photo"
+            android:text="拍照"></Button>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:backgroundTint="@android:color/background_light"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="22sp"
+        android:drawableLeft="@drawable/ic_menu_gallery"
+        android:text="相册"
+        android:onClick="chooseFile"
+        ></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--
+        <Button
+        android:text="getPrem"
+        android:onClick="getPrem"
+        android:layout_width="90dp"
+        android:layout_height="70dp"></Button>
+        -->
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/background_light"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="22sp"
+            android:onClick="getYourSimilarStar"
+            android:text="相似"></Button>
+
+        <Button
+
+            android:onClick="uploadByBase64"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/background_light"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="22sp"
+            android:text="颜值"></Button>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/background_light"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="22sp"
+            android:onClick="recongnizeMore"
+            android:text="合影"></Button>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/background_light"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="22sp"
+            android:onClick="uploadFaceByBase64"
+            android:text="上传"></Button>
+
+        <!--
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:background="@color/cardview_light_background"
+            android:onClick="recongnizeletter"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:text="识别文字"></Button>
+            -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+>
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:inputType="text"
+            ></EditText>
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="300dp"></ImageView>
+
+
+    <TextView
+        android:id="@+id/beauty"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""></TextView>
+    </LinearLayout>
+
+
+</LinearLayout>

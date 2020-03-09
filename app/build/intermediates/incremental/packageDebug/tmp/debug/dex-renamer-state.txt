@@ -1,0 +1,4 @@
+#Sat Nov 16 10:43:37 CST 2019
+base.0=D\:\\Repositories\\day02-master\\day02-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

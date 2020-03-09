@@ -1,0 +1,130 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cn.johnyu.day02"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:6:5-81
+12-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[fm.jiecao:jiecaovideoplayer:4.8.3] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\22841b6051c99387af9a677a3170a376\jetified-jiecaovideoplayer-4.8.3\AndroidManifest.xml:13:5-79
+13-->[fm.jiecao:jiecaovideoplayer:4.8.3] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\22841b6051c99387af9a677a3170a376\jetified-jiecaovideoplayer-4.8.3\AndroidManifest.xml:13:22-76
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->[com.zhihu.android:matisse:0.4.3] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\7bfd8ad975cc46c5c2514ab93fdd007f\jetified-matisse-0.4.3\AndroidManifest.xml:25:5-80
+14-->[com.zhihu.android:matisse:0.4.3] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\7bfd8ad975cc46c5c2514ab93fdd007f\jetified-matisse-0.4.3\AndroidManifest.xml:25:22-77
+15
+16    <application
+16-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:8:5-40:19
+17        android:allowBackup="true"
+17-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:9:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher_foreground"
+20-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:10:9-54
+21        android:label="@string/app_name"
+21-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:11:9-41
+22        android:networkSecurityConfig="@xml/network_config"
+22-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:12:9-60
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:13:9-54
+24        android:supportsRtl="true"
+24-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:14:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:15:9-40
+27        <activity
+27-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:16:9-17:35
+28            android:name="cn.johnyu.day02.LogoActivity"
+28-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:16:19-47
+29            android:label="物体识别" />
+29-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:17:13-33
+30        <activity
+30-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:18:9-19:35
+31            android:name="cn.johnyu.day02.LetterActivity"
+31-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:18:19-49
+32            android:label="文字识别" />
+32-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:19:13-33
+33        <activity
+33-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:20:9-29:20
+34            android:name="cn.johnyu.day02.photoActivity"
+34-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:20:19-48
+35            android:label="人脸识别" >
+35-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:21:13-33
+36            <intent-filter>
+36-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:22:13-28:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:23:17-69
+37-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:23:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:25:17-77
+39-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:25:27-74
+40
+41                <action android:name="android.intent.action.VIEW" />
+41-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:27:17-69
+41-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:27:25-66
+42            </intent-filter>
+43        </activity>
+44
+45        <provider
+45-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:31:9-39:20
+46            android:name="androidx.core.content.FileProvider"
+46-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:32:13-62
+47            android:authorities="cn.johnyu.day02.fileprovider"
+47-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:33:13-63
+48            android:exported="false"
+48-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:34:13-37
+49            android:grantUriPermissions="true" >
+49-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:35:13-47
+50            <meta-data
+50-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:36:13-38:53
+51                android:name="android.support.FILE_PROVIDER_PATHS"
+51-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:37:17-67
+52                android:resource="@xml/file_path" />
+52-->D:\Repositories\day02-master\day02-master\app\src\main\AndroidManifest.xml:38:17-50
+53        </provider>
+54
+55        <activity android:name="com.zhihu.matisse.ui.MatisseActivity" />
+55-->[com.zhihu.android:matisse:0.4.3] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\7bfd8ad975cc46c5c2514ab93fdd007f\jetified-matisse-0.4.3\AndroidManifest.xml:28:9-73
+55-->[com.zhihu.android:matisse:0.4.3] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\7bfd8ad975cc46c5c2514ab93fdd007f\jetified-matisse-0.4.3\AndroidManifest.xml:28:19-70
+56        <activity android:name="com.zhihu.matisse.internal.ui.AlbumPreviewActivity" />
+56-->[com.zhihu.android:matisse:0.4.3] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\7bfd8ad975cc46c5c2514ab93fdd007f\jetified-matisse-0.4.3\AndroidManifest.xml:29:9-87
+56-->[com.zhihu.android:matisse:0.4.3] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\7bfd8ad975cc46c5c2514ab93fdd007f\jetified-matisse-0.4.3\AndroidManifest.xml:29:19-84
+57        <activity android:name="com.zhihu.matisse.internal.ui.SelectedPreviewActivity" />
+57-->[com.zhihu.android:matisse:0.4.3] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\7bfd8ad975cc46c5c2514ab93fdd007f\jetified-matisse-0.4.3\AndroidManifest.xml:30:9-90
+57-->[com.zhihu.android:matisse:0.4.3] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\7bfd8ad975cc46c5c2514ab93fdd007f\jetified-matisse-0.4.3\AndroidManifest.xml:30:19-87
+58        <activity
+58-->[pub.devrel:easypermissions:1.2.0] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\d5e113c4cc5a999bcfe2123cb448397e\jetified-easypermissions-1.2.0\AndroidManifest.xml:12:9-16:66
+59            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+59-->[pub.devrel:easypermissions:1.2.0] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\d5e113c4cc5a999bcfe2123cb448397e\jetified-easypermissions-1.2.0\AndroidManifest.xml:13:13-86
+60            android:exported="false"
+60-->[pub.devrel:easypermissions:1.2.0] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\d5e113c4cc5a999bcfe2123cb448397e\jetified-easypermissions-1.2.0\AndroidManifest.xml:14:13-37
+61            android:label=""
+61-->[pub.devrel:easypermissions:1.2.0] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\d5e113c4cc5a999bcfe2123cb448397e\jetified-easypermissions-1.2.0\AndroidManifest.xml:15:13-29
+62            android:theme="@style/EasyPermissions.Transparent" />
+62-->[pub.devrel:easypermissions:1.2.0] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\d5e113c4cc5a999bcfe2123cb448397e\jetified-easypermissions-1.2.0\AndroidManifest.xml:16:13-63
+63
+64        <provider
+64-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+65            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+66            android:authorities="cn.johnyu.day02.lifecycle-process"
+66-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+67            android:exported="false"
+67-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+68            android:multiprocess="true" />
+68-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\陈耀文\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+69    </application>
+70
+71</manifest>
